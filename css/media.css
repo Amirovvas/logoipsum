@@ -1,0 +1,142 @@
+@media (max-width: 1200px) {
+  #hero {
+    .hero {
+      img {
+        width: 100%;
+        max-width: 350px;
+      }
+    }
+  }
+  #index {
+    .index {
+      img {
+        width: 100%;
+        max-width: 330px;
+      }
+    }
+  }
+  #cards {
+    .cards {
+      .card {
+        width: 100%;
+        max-width: 250px;
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+  #blocks {
+    .blocks {
+      .block1 {
+        img {
+          width: 100%;
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #header {
+    .header {
+      nav,
+      button {
+        display: none;
+      }
+      .menu {
+        display: block;
+      }
+    }
+  }
+  #cards {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 25px;
+    }
+  }
+  #product {
+    .product {
+      h2 {
+        font-size: clamp(1.25rem, 0.864rem + 1.76vw, 2.188rem);
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #hero {
+    .hero {
+      h1 {
+        font-size: 40px;
+      }
+      img {
+        width: 100%;
+        max-width: 250px;
+      }
+    }
+  }
+  #index {
+    .index {
+      img {
+        width: 100%;
+        max-width: 200px;
+      }
+    }
+  }
+}
+@media (max-width: 640px) {
+  #hero {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .icon-button {
+        justify-content: center;
+      }
+    }
+  }
+  #imgs {
+    .imgs {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  #index {
+    .index {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  #blocks {
+    .blocks {
+      flex-direction: column;
+      align-items: center;
+      align-items: center;
+    }
+  }
+  #product {
+    .product {
+      flex-direction: column;
+      align-items: start;
+      gap: 10px;
+    }
+  }
+}
+@media (max-width: 475px) {
+  #index {
+    .index {
+      .index-text {
+        text-align: center;
+        align-items: center;
+        p {
+          width: 100%;
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}
