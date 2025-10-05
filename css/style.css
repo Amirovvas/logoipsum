@@ -60,11 +60,9 @@ span {
 
 button {
   background: #ff7143;
-  width: 150px;
-  height: 50px;
+  padding: 10px 20px;
   border-radius: 15px;
   color: white;
-  padding: 10px;
 }
 
 /* header */
@@ -103,11 +101,11 @@ button {
     .hero-text {
       display: flex;
       flex-direction: column;
+      align-items: start;
+
       gap: 25px;
     }
     button {
-      width: 150px;
-      height: 45px;
       background: #5454d4;
     }
 
@@ -115,7 +113,7 @@ button {
       background: white;
       border: 1px solid black;
       border-radius: 50%;
-      padding: 15px;
+      padding: 10px;
       color: black;
     }
     .icon-button {
