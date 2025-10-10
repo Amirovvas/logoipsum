@@ -12,6 +12,27 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 80px;
+  @media (max-width: 1366px) {
+    max-width: 1200px;
+  }
+  @media (max-width: 1200px) {
+    max-width: 1024px;
+  }
+  @media (max-width: 1024px) {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    max-width: 640px;
+  }
+  @media (max-width: 640px) {
+    max-width: 475px;
+    padding: 0;
+  }
+  @media (max-width: 475px) {
+    max-width: 350px;
+    padding: 0;
+  }
 }
 
 h1 {
